@@ -67,6 +67,8 @@ header img {
   @media screen and (max-width: 768px) {
     body {
         width: fit-content;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }
 
