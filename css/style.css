@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Baloo+Thambi+2&display=swap');
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+    background: #dee9ff;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+header h2 {
+    text-align: center;
+    width: 50vw;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+#btns {
+    text-align: center;
+    
+}
+
+#btns #donwload {
+    background: #4CAF50;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btns #source {
+    background: #0077FF;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#bottom-line {
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+  }
+
+  #arun:hover{
+    color:red;
+  }
+  #arun{
+      text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        width: fit-content;
+    }
+}
+
